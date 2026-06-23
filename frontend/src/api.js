@@ -1,4 +1,4 @@
-const BASE_URL = 'http://localhost:8000';
+const BASE_URL = 'https://campus-assistant-backend-hahn.onrender.com';
 
 async function request(method, path, body = null) {
   const token = localStorage.getItem('token');
